@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: #1b1b32;
+  --light-grey: #f5f6f7;
+  --black: #000;
+  --white: #fff;
+  --grey: #3b3b4f;
+}
+
+h1 {
+  margin-bottom: 21;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  text-align: center;
+  background-color: var(--light-grey);
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 14px;
+}
+
+#main {
+  display: flex;
+  flex-direction:  column;;
+  padding: 21px;
+  align-items: center;
+  width: 75%;
+  max-width: 500px;
+  height: 75vh;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px blue, 15px 15px  darkgrey;
+  border-radius: 20px;
+  background-color: var(--dark-grey);
+ 
+}
+
+p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--light-grey);
+}
+
+input {
+  padding: 7px;
+   width: 75%;
+}
+
+button {
+  padding: 7px;
+ 
+}
+
+#input-section {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin: 7px 0;
+}
+ 
+#main > div {
+  color: var(--light-grey);
+}
